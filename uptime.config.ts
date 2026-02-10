@@ -10,9 +10,9 @@ const pageConfig: PageConfig = {
   title: "lyc8503's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://github.com/lyc8503', label: 'GitHub' },
-    { link: 'https://blog.lyc8503.net/', label: 'Blog' },
-    { link: 'mailto:me@lyc8503.net', label: 'Email Me', highlight: true },
+    { link: 'https://github.com/zyhUptimeFlare', label: 'GitHub' },
+    { link: 'https://zyh111.top, label: '个人网站' },
+    { link: 'mailto:zyh20120603@outlook.com', label: 'Email', highlight: true },
   ],
 }
 
@@ -24,15 +24,15 @@ const workerConfig: WorkerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'foo_monitor',
       // `name` is used at status page and callback message
-      name: 'My API Monitor',
+      name: '网站监控',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://example.com',
+      target: 'https://zyh111.top',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      tooltip: '网站主页zyh111.top',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://zyh111.top',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -64,7 +64,7 @@ const workerConfig: WorkerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: '1.2.3.4:22',
       tooltip: 'My production server SSH',
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://zyh111.top',
       timeout: 5000,
     },
   ],
