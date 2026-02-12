@@ -27,6 +27,14 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://waline.zyh111.top/',
       hideLatencyChart: true,
     },
+    {
+      id: 'blog',
+      name: '博客',
+      method: 'GET',
+      target: 'https://blog.zyh111.top/',
+      statusPageLink: 'https://blog.zyh111.top/',
+      hideLatencyChart: true,
+    },
   ],
 }
 
