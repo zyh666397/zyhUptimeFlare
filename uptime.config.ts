@@ -15,8 +15,8 @@ const workerConfig: WorkerConfig = {
       id: 'home',
       name: '主页',
       method: 'GET',
-      target: 'https://zyh111.top/',
-      statusPageLink: 'https://zyh111.top/',
+      target: 'https://www.zyh111.top/',
+      statusPageLink: 'https://www.zyh111.top/',
       hideLatencyChart: true,
     },
     {
