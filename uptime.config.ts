@@ -35,6 +35,14 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://blog.zyh111.top/',
       hideLatencyChart: true,
     },
+    {
+      id: 'api',
+      name: 'MC图片API',
+      method: 'GET',
+      target: 'https://mcpic.zyh111.top/',
+      statusPageLink: 'https://mcpic.zyh111.top/',
+      hideLatencyChart: true,
+    },
   ],
 }
 
